@@ -1,3 +1,5 @@
+package main.java;
+
 public class Person {
     protected String passengerFirstName;
     protected String passengerLastName;
@@ -17,5 +19,7 @@ public class Person {
         return passengerLastName;
     }
 
-
+    public int getNumberOfTickets() {
+        return numberOfTickets;
+    }
 }
